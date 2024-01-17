@@ -1,0 +1,5 @@
+REPO="https://raw.githubusercontent.com/R2GANTENG/VIPR2MTUNNEL/main/"
+
+
+
+wget -O /root/.config/rclone/rclone.conf "${REPO}limit/rclone.conf"
