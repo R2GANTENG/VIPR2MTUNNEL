@@ -33,14 +33,22 @@ clear
 clear && clear && clear
 clear;clear;clear
 
-  # // Banner
-echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Welcome To R2M TUNNELING ${RED}(${NC}${RED} Stable Edition ${NC}${RED})${NC}"
-echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  AUTHOR: ${BLUE}RadenRizki® ${NC}${RED}(${NC} ${BLUE} R2MTUNNNEL${NC}${RED})${NC}"
-echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo ""
-sleep 2
+function LOGO() {
+    echo -e "
+    ┌───────────────────────────────────────────────┐
+ ───│                                               │───
+ ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───
+ ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───
+ ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───
+    │    ${YELLOW}Copyright${FONT} (C)$GRAY https://github.com/R2GANTENG$NC   │
+    └───────────────────────────────────────────────┘
+         ${RED} AUTOSCRIPT PREMIUM CUAGSS${FONT}    
+           ${RED} SCRIPT MOD BY RADEN RIZKI${FONT}
+${RED}SELAMAT MENIKMATI PENGINSTALLANNYAt${FONT}
+        "
+
+}
+sleep 5
 ###### IZIN SC 
 
 # // Checking Os Architecture
