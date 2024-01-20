@@ -950,9 +950,6 @@ print_install "Enable Service"
     clear
 }
 
-#install_udp_custom
-wget https://raw.githubusercontent.com/namydeveloper/udp-vip/main/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
-
 # Fingsi Install Script
 function instal(){
 clear
