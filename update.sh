@@ -35,6 +35,9 @@ fun_bar() {
     tput cnorm
 }
 res1() {
+    rm -rf menu
+    rm -rf menu.zip
+    rm -rf update.sh
     wget https://raw.githubusercontent.com/R2GANTENG/VIPR2MTUNNEL/main/limit/menu.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/R2GANTENG/VIPR2MTUNNEL/main/epro/epro" ; chmod +x /usr/bin/enc
     7z e -paskykenza123 menu.zip
