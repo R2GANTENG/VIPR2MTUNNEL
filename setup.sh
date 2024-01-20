@@ -33,7 +33,6 @@ clear
 clear && clear && clear
 clear;clear;clear
 
-function LOGO() {
     echo -e "
     ┌───────────────────────────────────────────────┐
  ───│                                               │───
@@ -46,8 +45,6 @@ function LOGO() {
            ${RED} SCRIPT MOD BY RADEN RIZKI${FONT}
 ${RED}SELAMAT MENIKMATI PENGINSTALLANNYAt${FONT}
         "
-
-}
 sleep 5
 ###### IZIN SC 
 
@@ -289,10 +286,22 @@ clear
 # Fungsi input domain
 function pasang_domain() {
 echo -e ""
-clear
-    echo -e "   .━━━━━━━━━━━━━━━."
+clear    
+echo -e "
+    ┌───────────────────────────────────────────────┐
+ ───│                                               │───
+ ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───
+ ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───
+ ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───
+    │    ${YELLOW}Copyright${FONT} (C)$GRAY https://github.com/R2GANTENG$NC   │
+    └───────────────────────────────────────────────┘
+         ${RED} AUTOSCRIPT PREMIUM CUAGSS${FONT}    
+           ${RED} SCRIPT MOD BY RADEN RIZKI${FONT}
+${RED}SELAMAT MENIKMATI PENGINSTALLANNYAt${FONT}
+        "
+    echo -e "━━━━━━━━━━━━━━"
 echo -e "   |\e[1;32mSILAHKAN MASUKAN DOMAIN \e[0m|"
-echo -e "   '━━━━━━━━━━━━━━'"
+echo -e "    ━━━━━━━━━━━━━━'"
 echo -e "     \e[1;32m1)\e[0m Domain Sendiri"
 echo -e "   ━━━━━━━━━━━━━━"
 read -p "   MASUKAN DOMAIN KETIK 1: " host
