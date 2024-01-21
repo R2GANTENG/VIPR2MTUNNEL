@@ -45,9 +45,7 @@ ${YELLOW}   AUTOSCRIPT PREMIUM CUAGSS${FONT}
 ${YELLOW}   SCRIPT MOD BY RADEN RIZKI${FONT}
 ${YELLOW}SELAMAT MENIKMATI PENGINSTALLANNYA${FONT}
 "
-        
-sleep 5
-###### IZIN SC 
+###### IZIN SC
 
 # // Checking Os Architecture
 if [[ $( uname -m | awk '{print $1}' ) == "x86_64" ]]; then
