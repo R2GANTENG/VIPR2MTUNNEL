@@ -42,7 +42,6 @@ res1() {
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin
-    rm -rf menu
     rm -rf menu.zip
     rm -rf update.sh
 }
@@ -57,6 +56,6 @@ fun_bar 'res1'
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 read -n 1 -s -r -p "Press [ Enter ] to back on menu"
-m-menu
+menu
 
 ###########- COLOR CODE -##############
