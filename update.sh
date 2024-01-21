@@ -57,6 +57,6 @@ fun_bar 'res1'
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 read -n 1 -s -r -p "Press [ Enter ] to back on menu"
-menu
+m-menu
 
 ###########- COLOR CODE -##############
